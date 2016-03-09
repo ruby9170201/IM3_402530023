@@ -9,6 +9,10 @@ class Rectangle{
 		this.Y = _Y;
 	}
 	
+	Rectangle(){	
+	}
+	
+	
 	double getHeight(){
 		return this.Height;
 	}
@@ -17,12 +21,18 @@ class Rectangle{
 		return this.Width;
 	}
 	
-	public String toString(){
-		return "Height:" + this.Height + " Width:" + this.Width;
+	double getX(){
+		return this.X;
 	}
 	
-	Rectangle(){	
+	double getY(){
+		return this.Y;
 	}
+	
+	public String toString(){
+		return "java.Rectangle[x="+this.X+",y="+this.Y+",width="+this.Width+",height="+this.Height;
+	}
+	
 	
 }
 
